@@ -281,15 +281,6 @@ Sleep数据说明:
 ```
 
 ```
-HRV数据说明:
-5B SDNN {float sdnn = (int)[1,4] + ((int)[5])/255.0;}
-5B TP   {float tp   = (int)[1,4] + ((int)[5])/255.0;}
-5B LF   {float lf   = (int)[1,4] + ((int)[5])/255.0;}
-5B HF   {float hf   = (int)[1,4] + ((int)[5])/255.0;}
-5B VLF  {float vlf  = (int)[1,4] + ((int)[5])/255.0;}
-```
-
-```
 温度转换算法：
 z人体温度、y体表温度、x环境温度（均为浮点型数值）
 y = 0xCCDD * 0.005;  x = 0xAABB * 0.005;  
